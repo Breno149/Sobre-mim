@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+html{
+    background: #333;
+}
+
+h1, h2, h3, p{
+    margin: 10px;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+
+.contentPage{
+    max-width: 980px;
+    background: rgb(97, 97, 97);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+nav ul li{
+    padding: 1% 0;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    ;
+}
+
+nav ul li:hover{
+    padding: 1% 0;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    background: rgb(63, 110, 181)
+    ;
+}
+
+nav ul li a {
+    color: rgb(186, 186, 186);
+    cursor: pointer;
+}
+
+
+.galeria img{
+    max-width: 250px;
+    border-radius: 50%;
+    margin: 3% auto;
+    display: block;
+}
+
+aside{
+    margin: 10%;
+}
+
+aside ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+aside ul :hover{
+    color: #ccc;
+    background: rgb(63, 110, 181);
+}
+
+aside ul li{
+    padding: 1% 0;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+      
+}
+
+aside ul li a{
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    padding: 1% 0;
+    background: #333;
+    color: #fff;
+}
+
+
+.test{
+    background: #ccc;
+    height: 10px;
+    width: 10px;
+    margin: 0px 1111px 45px ;
+}
+
+ .test ul{
+     background: #333
+ }
+
+ .test ul :hover{
+    background: rgb(239, 243, 0);
+ }
+
+ .test ul li{
+     color: #333;
+ }
+
+ .test ul a{
+     color: #333;
+ }
